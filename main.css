@@ -10,12 +10,12 @@ h1 {
 
 h2 {
     font-family: 'PT Sans', sans-serif;
-    font-size: 30px;
+    font-size: 10px;
     color: #737373;
     text-align: center;
-    padding-top: 0px; 
+    padding-top: 0px;
 }
 
 body {
-    background-color: #e6f5ff;
+    background-color: #000000;
 }

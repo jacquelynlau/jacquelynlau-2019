@@ -6,7 +6,6 @@ h1 {
     text-align: center;
     padding-top: 40px;
     padding-botton: 0px;
-    margin: 0px;
 }
 
 h2 {
@@ -15,7 +14,7 @@ h2 {
     color: #737373;
     text-align: center;
     padding-top: 0px;
-    margin: 0px;
+    margin-top: 10px;
 }
 
 body {

@@ -1,5 +1,10 @@
 
 h1 {
-    color: blue; 
-    font-family: Arial; 
+    color: #737373;
+    font-family: Arial;
+
+}
+
+body {
+    background-color: #f2e6ff;
 }

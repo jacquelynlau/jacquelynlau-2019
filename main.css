@@ -8,6 +8,11 @@ h1 {
     padding-botton: 20px;
 }
 
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    padding-top: 10px; 
+}
 
 body {
     background-color: #e6f5ff;

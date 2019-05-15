@@ -1,6 +1,8 @@
 
+@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800);
+
 html, body {
-  font-family: 'Oswald';
+  font-family: 'Dosis';
   font-weight: 300;
 }
 
@@ -49,27 +51,4 @@ html, body {
       bottom: 5px;
     }
   }
-}
-
-h1 {
-    color: #737373;
-    font-family: 'Oswald', sans-serif;
-    font-size: 50px;
-    text-align: center;
-    padding-top: 40px;
-    padding-botton: 0px;
-    margin-bottom: 0px;
-}
-
-h2 {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 15px;
-    color: #737373;
-    text-align: center;
-    padding-top: 0px;
-    margin-top: 0px;
-}
-
-body {
-    background-color: #FFFFFF;
 }

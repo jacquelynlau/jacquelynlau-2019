@@ -1,15 +1,14 @@
-
 body { 
     margin: 0; 
     font-family: Arial, Helvetica, sans-serif; 
 }
 
-.topnav {
+.main-menu {
     opacity: 1; 
 }
 
 
-.topnav a {
+.main-menu a {
   float: left;
   color: #595959;
   text-align: center;
@@ -20,13 +19,13 @@ body {
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.main-menu a:hover {
   color: #9999ff;
 }
 
 
 
 /* Right-aligned section inside the top navigation */
-.topnav-right {
+.main-menu {
   float: right;
 }

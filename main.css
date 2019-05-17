@@ -1,6 +1,12 @@
 body { 
-    margin: 0; 
-    font-family: Arial, Helvetica, sans-serif; 
+  margin: 0; 
+  opacity: 1; 
+  transition: 1s opacity;
+}
+
+body.fade-out {
+  opacity: 0;
+  transition: none;
 }
 
 .main-menu {
@@ -18,9 +24,10 @@ body {
   font-family: 'Source Serif Pro', serif;
 }
 
-/* Change the color of links on hover */
+/* change menu link on hover */
 .main-menu a:hover {
   color: #9999ff;
+  text-decoration: none; 
 }
 
 
@@ -28,4 +35,42 @@ body {
 /* Right-aligned section inside the top navigation */
 .main-menu {
   float: right;
+  display: flex;
+  margin: 10px;
+  margin-right: 80px; 
+  margin-top: 30px; 
+  vertical-align: middle; 
+  
+}
+
+.email a{  
+  text-decoration: none;
+  color: #527590;
+  text-align: center; 
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 40px;
+  left: 0;
+  line-height: 200px;
+  margin: auto;
+  margin-top: -450px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.site-header{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.tag-line{ 
+  margin: 0 auto; 
+  width:75%; 
+  margin-top: 100px; 
+  margin-bottom: 300px;
+}
+
+.portfolio{
+  background-color: #FEE5A5
 }

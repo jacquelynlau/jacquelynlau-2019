@@ -26,8 +26,14 @@ body.fade-out {
 
 /* change menu link on hover */
 .main-menu a:hover {
-  color: #9999ff;
+  color: #ABC8B1;
   text-decoration: none; 
+  transition-duration:0.5s;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 
@@ -66,9 +72,9 @@ body.fade-out {
 
 .tag-line{ 
   margin: 0 auto; 
-  width:75%; 
-  margin-top: 100px; 
-  margin-bottom: 300px;
+  width:70%; 
+  margin-top: 150px; 
+  margin-bottom: 300px; 
 }
 
 .portfolio{

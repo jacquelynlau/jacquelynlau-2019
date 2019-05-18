@@ -90,6 +90,11 @@ p2 {
     font-weight: 300; 
 }
 
+h5 { 
+	text-align: center; 
+}
+
+
 .portfolio{
   background-color: #EDEBDC
 }

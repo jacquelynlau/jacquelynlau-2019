@@ -2,7 +2,9 @@ body {
   margin: 0; 
   opacity: 1; 
   transition: 1s opacity;
+  background-color: #ffffff; 
 }
+
 
 body.fade-out {
   opacity: 0;
@@ -72,11 +74,22 @@ a {
 
 .tag-line{ 
   margin: 0 auto; 
-  width:70%; 
-  margin-top: 150px; 
-  margin-bottom: 300px; 
+  width:75%; 
+  margin-top: 50px; 
+  margin-bottom: 280px;
+}
+
+p1 { 
+    font: 4em 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: #527760;
+}
+
+p2 { 
+    font: 2em 'Roboto Condensed', sans-serif;
+    font-weight: 300; 
 }
 
 .portfolio{
-  background-color: #FEE5A5
+  background-color: #EDEBDC
 }

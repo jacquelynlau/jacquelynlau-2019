@@ -23,9 +23,8 @@ p2 {
 
 .gamedesignheader {
   align-content: top; 
-  align-content: center; 
-  padding-left: 40px; 
-  padding-right: 40px; 
+  align-content: center;
+  width:75%; 
 }
 
 .projectinfo { 

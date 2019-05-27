@@ -1,54 +1,73 @@
 .container-fluid.project{
-    padding: 0 auto;
-    width: 50%; 
+  padding: 0 auto;
+  width: 75%; 
 }
 
 .project{
-    margin-left: auto; 
-    margin-right: auto; 
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
 .project{
-    padding-top: 30px; 
-    
+  padding-top: 30px; 
+  
 }
 
 .project-heading{
-    font: 36px 'Roboto', sans-serif;
-    font-weight: 400; 
-    text-align: center;
-    margin-bottom: 12px; 
+  font: 36px 'Roboto', sans-serif;
+  font-weight: 400; 
+  text-align: center;
+  margin-bottom: 12px; 
 }
 
 .project-intro{
-    font: 20px 'Roboto', sans-serif;
-    font-weight: 300;
-    margin-bottom: 50px;
-    text-align: center;
+  font: 20px 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 50px;
+  text-align: center;
 
 }
 
 .gamedesignheader {
-    width: 90%; 
-    margin: 0 auto; 
-    padding-left: 20px; 
-    padding-right: 20px; 
-    padding-bottom: 30px;
+  width: 90%; 
+  margin: 0 auto; 
+  padding-left: 20px; 
+  padding-right: 20px; 
+  padding-bottom: 30px;
+}
+
+.project-caps-heading{ 
+  font: 14px 'Roboto', sans-serif;
+  color:  #FF1744;
+  letter-spacing: 2px;
+  width: 85%; 
+  margin: 0 auto; 
+  margin-top: 40px; 
 }
 
 .project-sub-heading{
-    font: 24px 'Roboto', sans-serif; 
-    font-weight: bold; 
-    margin:0 auto; 
-    width: 85%; 
-    margin-top: 20px; 
-    margin-bottom: 15px; 
+  font: 24px 'Roboto', sans-serif; 
+  font-weight: bold; 
+  margin:0 auto; 
+  width: 85%; 
+  margin-top: 20px; 
+  margin-bottom: 15px; 
+  
 }
 
 .project-paragraph{ 
-    font: 18px 'Roboto', sans-serif; 
-    font-weight: 300;
-    margin: 0 auto; 
-    width: 85%;
-    line-height: 28px;
+  font: 18px 'Roboto', sans-serif; 
+  font-weight: 300;
+  margin: 0 auto; 
+  width: 85%;
+  line-height: 28px;
+
+}
+
+.low{ 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;  
+  max-width: 70%; 
+  padding-top: 20px; 
 }

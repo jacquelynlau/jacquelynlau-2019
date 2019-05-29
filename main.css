@@ -81,13 +81,13 @@ a {
 }
 
 p1 { 
-    font: 4em 'Roboto Condensed', sans-serif;
+    font: 4em 'Roboto', sans-serif;
     font-weight: 400;
-    color: #527760;
+    color: #799FB5;
 }
 
 p2 { 
-    font: 2em 'Roboto Condensed', sans-serif;
+    font: 2em 'Roboto', sans-serif;
     font-weight: 300; 
 }
 
@@ -96,7 +96,7 @@ h5 {
 }
 
 .portfolio{
-  background-color: #EDEBDC
+  background-color: #C7D3D6;
 }
 
 .p3 {

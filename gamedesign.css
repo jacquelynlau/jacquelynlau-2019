@@ -37,7 +37,7 @@
   }
   
   .project-caps-heading{ 
-    font: 14px 'Roboto', sans-serif;
+    font: 16px 'Roboto', sans-serif;
     color:  #FF1744;
     letter-spacing: 2px;
     width: 85%; 
@@ -89,4 +89,13 @@
     margin: 0 auto; 
     width: 85%;
     line-height: 28px;
+  }
+
+  .wireframe{ 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;  
+    max-width: 60%; 
+    padding-top: 20px; 
+    
   }

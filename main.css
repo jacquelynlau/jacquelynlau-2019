@@ -103,9 +103,11 @@ h5 {
 
 .p3 {
     text-align: center;
+    font-weight: 300;
 }
 .card-body { 
     text-align: center; 
+    
 }
 
 .overlay-container{

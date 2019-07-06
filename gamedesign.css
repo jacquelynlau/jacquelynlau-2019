@@ -68,9 +68,10 @@
     display: block; 
     margin-left: auto; 
     margin-right: auto;  
-    max-width: 70%; 
+    max-width: 120%;
+    max-height: 120%; 
     padding-top: 20px; 
-    padding-bottom: 20px;
+    
   }
 
   .gameflow{ 

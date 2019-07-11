@@ -64,7 +64,7 @@
 
 }
 
-.low{ 
+.levels{ 
   display: block; 
   margin-left: auto; 
   margin-right: auto;  
@@ -80,3 +80,22 @@
   padding-top: 20px; 
 }
 
+.wireframe{ 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;  
+  padding-top: 20px;
+  padding-bottom: 20px;  
+  max-width: 70%; 
+  max-height: 70%; 
+}
+
+.gameflow{ 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;  
+  padding-top: 20px;
+  padding-bottom: 20px;  
+  max-width: 70%; 
+  max-height: 70%; 
+}

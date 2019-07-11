@@ -111,5 +111,13 @@
     padding-bottom: 30px; 
     
   }
+
+.flow{
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;  
+  padding-top: 20px; 
+}
+
   
 

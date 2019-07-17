@@ -16,6 +16,7 @@ body.fade-out {
 }
 
 
+
 .main-menu a {
   float: left;
   color: #595959;
@@ -52,19 +53,30 @@ a {
   
 }
 
-.email a{  
+.name { 
+  float: left; 
+  display: flex; 
+  margin: 10px;
+  margin-left: 80px; 
+  margin-top: 30px; 
+  vertical-align: middle; 
+}
+
+.name a {
+  
+  color: #000000;
+  text-align: center;
+  padding: 20px 16px;
   text-decoration: none;
-  color: #527590;
-  text-align: center; 
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 40px;
-  left: 0;
-  line-height: 200px;
-  margin: auto;
-  margin-top: -450px;
-  position: absolute;
-  top: 50%;
-  width: 100%;
+  font-size: 16px;
+  font-family:'Roboto',sans-serif;
+  font-weight: 400; 
+}
+
+.name a:hover {
+  color: #000000;
+  text-decoration: none; 
+  
 }
 
 .site-header{
@@ -93,6 +105,8 @@ p2 {
 
 h5 { 
     text-align: center;
+    font: 'Roboto', sans-serif;
+    
 }
 
 .portfolio{
@@ -107,7 +121,7 @@ h5 {
 }
 .card-body { 
     text-align: center; 
-    
+    font: 'Roboto', sans-serif;
 }
 
 .overlay-container{
@@ -164,9 +178,10 @@ h5 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  font: 2em 'Roboto', sans-serif;
 }
 .overlay-container:hover .overlay {
-  opacity: 0.6;
+  opacity: 0.4;
 }
 a.read-more-button { 
     display:inline-block;
@@ -195,4 +210,3 @@ a.read-more-button:hover{
         margin:0.2em auto;
     }
 }
-

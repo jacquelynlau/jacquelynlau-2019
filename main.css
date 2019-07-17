@@ -93,14 +93,16 @@ a {
 }
 
 p1 { 
-    font: 4em 'Roboto', sans-serif;
+    font: 3em 'Roboto', sans-serif;
     font-weight: 400;
     color: #799FB5;
 }
 
 p2 { 
-    font: 2em 'Roboto', sans-serif;
-    font-weight: 300; 
+    font:'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 22px; 
+
 }
 
 h5 { 

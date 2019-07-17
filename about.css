@@ -1,7 +1,7 @@
 .container-fluid.aboutme { 
     padding: 0 auto; 
     width: 80%;
-    padding-top: 50px; 
+    padding-top: 40px; 
     
 }
 
@@ -21,6 +21,7 @@
   width: 40%; 
   margin: 0 auto;
   align-content: center;
+  padding-top: 15px;
    
   }
 
@@ -40,7 +41,7 @@
     width: 80%;
     line-height: 22px;
     align-content: center;
-    padding-top: 45px; 
+    padding-top: 30px; 
     
     
   }
@@ -63,5 +64,6 @@
 .profile-paragraph a:hover {
   color: #799FB5;
   text-decoration: underline; 
-  
 }
+
+

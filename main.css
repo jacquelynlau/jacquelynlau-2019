@@ -30,7 +30,7 @@ body.fade-out {
 
 /* change menu link on hover */
 .main-menu a:hover {
-  color: #ABC8B1;
+  color: #799FB5;
   text-decoration: none; 
   transition-duration:0.5s;
 }

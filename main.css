@@ -1,24 +1,29 @@
-body {
-	background-color: #ffffff; 
+body { 
+  
+  background-color: #ffffff; 
 }
 
 .main-menu {
-	opacity: 1; 
-	background-color: #ffffff; 
+    opacity: 1; 
+    background-color:#ffffff; 
 }
 
 
 
 .main-menu a {
-  	float: left;
-  	color: #595959;
-  	text-align: center;
-  	padding: 20px 16px;
- 	text-decoration: none;
- 	font-size: 18px;
- 	font-family:'Roboto',sans-serif;
- 	font-weight: 300; 
-	background-color: transparent; 
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family:'Roboto',sans-serif;
+  font-weight: 300; 
+  background-color: transparent; 
+
+
+
+
 }
 
 /* change menu link on hover */
@@ -40,20 +45,22 @@ a {
   float: right;
   display: flex;
   margin: 10px;
-  margin-right: 80px; 
-  margin-top: 30px; 
+  padding-right: 80px; 
+  padding-top: 30px; 
   vertical-align: middle; 
+   
   
 }
 
 .name { 
   float: left; 
   display: flex; 
-  margin: 10px;
-  margin-left: 80px; 
-  margin-top: 30px; 
+  padding: 10px;
+  padding-left: 80px; 
+  padding-top: 30px; 
   vertical-align: middle; 
-background-color:transparent; 
+  background-color:transparent; 
+  
 }
 
 .name a {
@@ -65,6 +72,8 @@ background-color:transparent;
   font-size: 28px;
   font-family: 'DM Serif Display', serif;
   font-weight: bold; 
+
+
 }
 
 .name a:hover {
@@ -77,7 +86,11 @@ background-color:transparent;
   display: inline-block;
   position: relative;
   width: 100%;
-background-color:#ffffff;
+  background-color:#ffffff;  
+}
+
+header{ 
+  background-color:#ffffff; 
 }
 
 .tag-line{ 
@@ -85,10 +98,6 @@ background-color:#ffffff;
   position: static;
   padding-bottom: 250px;
   background-color: #ffffff; 
-}
-
-header{ 
-  background-color:#ffffff; 
 }
 
 p1 { 
@@ -117,20 +126,41 @@ h5 {
   background-color: #ffffff;
   padding-top: 50px; 
   padding-bottom: 40px;
+
+  
 }
 
 .p3 {
     text-align: center;
     font-weight: 300;
 }
+
 .card-body { 
     text-align: center; 
     font: 'Roboto', sans-serif;
+    
 }
+
+
 
 .overlay-container{
   position: relative; 
+  background-color: #000000;
+}
 
+.gd-overlay-container{
+  position: relative; 
+  background-color: #e6eeff; 
+}
+
+.hci-overlay-container{
+  position: relative; 
+  background-color: #ebf7f5;
+}
+
+.icons-overlay-container{
+  position: relative; 
+  background-color: #ffeae6;
 }
 
 .gamedesign { 
@@ -184,9 +214,24 @@ h5 {
   text-align: center;
   font: 2em 'Roboto', sans-serif;
 }
+.gd-overlay-container:hover .overlay {
+  opacity: 0.4;
+}
+
+.hci-overlay-container:hover .overlay {
+  opacity: 0.4;
+}
+
+.icons-overlay-container:hover .overlay {
+  opacity: 0.4;
+}
+
+
 .overlay-container:hover .overlay {
   opacity: 0.4;
 }
+
+
 
 
 

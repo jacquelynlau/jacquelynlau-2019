@@ -1,31 +1,24 @@
-body { 
-  margin: 0; 
-  opacity: 1; 
-  transition: 1s opacity;
-  background-color: #ffffff; 
-}
-
-
-body.fade-out {
-  opacity: 0;
-  transition: none;
+body {
+	background-color: #ffffff; 
 }
 
 .main-menu {
-    opacity: 1; 
+	opacity: 1; 
+	background-color: #ffffff; 
 }
 
 
 
 .main-menu a {
-  float: left;
-  color: #595959;
-  text-align: center;
-  padding: 20px 16px;
-  text-decoration: none;
-  font-size: 18px;
-  font-family:'Roboto',sans-serif;
-  font-weight: 300; 
+  	float: left;
+  	color: #595959;
+  	text-align: center;
+  	padding: 20px 16px;
+ 	text-decoration: none;
+ 	font-size: 18px;
+ 	font-family:'Roboto',sans-serif;
+ 	font-weight: 300; 
+	background-color: transparent; 
 }
 
 /* change menu link on hover */
@@ -60,17 +53,18 @@ a {
   margin-left: 80px; 
   margin-top: 30px; 
   vertical-align: middle; 
+background-color:transparent; 
 }
 
 .name a {
   
-  color: #000000;
+  color: #333333;
   text-align: center;
   padding: 20px 16px;
   text-decoration: none;
-  font-size: 16px;
-  font-family:'Roboto',sans-serif;
-  font-weight: 400; 
+  font-size: 28px;
+  font-family: 'DM Serif Display', serif;
+  font-weight: bold; 
 }
 
 .name a:hover {
@@ -83,26 +77,34 @@ a {
   display: inline-block;
   position: relative;
   width: 100%;
+background-color:#ffffff;
 }
 
 .tag-line{ 
-  margin: 0 auto; 
-  width:75%; 
-  margin-top: 50px; 
-  margin-bottom: 250px;
+  margin: 0 auto;  
+  position: static;
+  padding-bottom: 250px;
+  background-color: #ffffff; 
+}
+
+header{ 
+  background-color:#ffffff; 
 }
 
 p1 { 
-    font: 3em 'Roboto', sans-serif;
+    font-family: 'DM Serif Display', serif;
     font-weight: 400;
-    color: #799FB5;
+    font-size: 50px; 
+    color: #333333;
+    margin-left: 150px; 
 }
 
 p2 { 
     font:'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 300; 
     font-size: 22px; 
-
+    color: #000000;
+    margin-left: 150px;  
 }
 
 h5 { 
@@ -112,8 +114,8 @@ h5 {
 }
 
 .portfolio{
-  background-color: #C7D3D6;
-  padding-top: 40px; 
+  background-color: #ffffff;
+  padding-top: 50px; 
   padding-bottom: 40px;
 }
 
@@ -185,30 +187,6 @@ h5 {
 .overlay-container:hover .overlay {
   opacity: 0.4;
 }
-a.read-more-button { 
-    display:inline-block;
-    padding:0.3em 1.2em;
-    margin:0 0.3em 0.3em 0;
-    border-radius:2em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
-    color:#FFFFFF;
-    background-color:#CDDCDF;
-    text-align:center;
-    transition: all 0.2s;
-}
 
-a.read-more-button:hover{
-    background-color: #d1e1d4;
-    color: #FFFFFF;
-    text-decoration: none; 
-}
 
-@media all and (max-width:30em){
-     a.read-more-button{
-        display:block;
-        margin:0.2em auto;
-    }
-}
+

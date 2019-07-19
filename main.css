@@ -96,7 +96,7 @@ header{
 .tag-line{ 
   margin: 0 auto;  
   position: static;
-  padding-bottom: 250px;
+  padding-bottom: 220px;
   background-color: #ffffff; 
 }
 
@@ -143,7 +143,10 @@ h5 {
 
 
 
-
+.overlay-container{
+  position: relative; 
+  background-color: #000000;
+}
 
 .gd-overlay-container{
   position: relative; 
@@ -152,7 +155,7 @@ h5 {
 
 .hci-overlay-container{
   position: relative; 
-  background-color: #ebf7f5;
+  background-color: #dbf0ed;
 }
 
 .icons-overlay-container{
@@ -160,28 +163,35 @@ h5 {
   background-color: #ffeae6;
 }
 
-.gamedesign { 
-  padding-top: 25px; 
+.elearning-overlay-container{
+  position: relative; 
+  background-color: #faeed1;
+}
+
+.gamedesign {  
+  margin-top: 3.2%; 
   max-width: 75%; 
   max-height: 75%; 
 }
 
-.hci { 
-  
-  padding-top: 20px; 
-  padding-right: 20px; 
-  padding-left: 20px; 
-  padding-bottom: 10px;
-  max-width: 75%; 
-  max-height: 75%; 
-  
+.hci {  
+  margin-top: 3%; 
+  max-width: 69%; 
+  max-height: 69%; 
 }
 
 .icons { 
-  padding-top: 20px; 
   max-width: 85%; 
-  max-height: 85%; 
-  margin-bottom: -20px;  
+  max-height: 85%;  
+}
+
+.elearning { 
+  margin-top: 10%; 
+  margin-bottom: 8%; 
+  max-width: 85%; 
+  max-height: 95%; 
+  
+  
   
 }
 
@@ -223,12 +233,13 @@ h5 {
   opacity: 0.4;
 }
 
+.elearning-overlay-container:hover .overlay {
+  opacity: 0.4;
+}
 
 .overlay-container:hover .overlay {
   opacity: 0.4;
 }
-
-
 
 
 

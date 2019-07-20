@@ -1,0 +1,109 @@
+.container.project{
+  padding: 0 auto;
+  width: 75%; 
+}
+
+.project{
+  margin-left: auto; 
+  margin-right: auto; 
+  max-width: 80%;
+  
+}
+
+.project{
+  padding-top: 30px; 
+  
+}
+
+.project-heading{
+  font: 36px 'Roboto', sans-serif;
+  font-weight: 400; 
+  text-align: center;
+  margin-bottom: 12px; 
+}
+
+.project-intro{
+  font: 20px 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 50px;
+  text-align: center;
+
+}
+
+.elearningheader {
+    align-content: center;
+    margin: 0 auto; 
+    max-width: 52%;
+    max-height: 52%; 
+    padding-bottom: 5px; 
+    padding-top: 10px;
+
+}
+
+
+
+.project-caps-heading{ 
+  font: 14px 'Roboto', sans-serif;
+  color:  #FF1744;
+  letter-spacing: 2px;
+  width: 85%; 
+  margin: 0 auto; 
+  margin-top: 40px; 
+}
+
+.project-sub-heading{
+  font: 24px 'Roboto', sans-serif; 
+  font-weight: bold; 
+  margin:0 auto; 
+  width: 85%; 
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+  
+}
+
+.project-paragraph{ 
+  font: 18px 'Roboto', sans-serif; 
+  font-weight: 300;
+  margin: 0 auto; 
+  width: 85%;
+  line-height: 28px;
+
+}
+
+.levels{ 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;  
+  max-width: 120%; 
+  max-height: 120%; 
+  padding-top: 20px; 
+}
+
+.flow{
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;  
+  padding-top: 20px; 
+}
+
+.wireframe{ 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;  
+  padding-top: 20px;
+  padding-bottom: 20px;  
+  max-width: 70%; 
+  max-height: 70%; 
+}
+
+.gameflow{ 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;  
+  padding-top: 20px;  
+  max-width: 80%; 
+  max-height: 80%; 
+}
+
+
+
